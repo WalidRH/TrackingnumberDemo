@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://parcelsapp.com/api/v2/parcels",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
